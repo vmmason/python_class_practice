@@ -3,7 +3,7 @@
 #A class is a blueprint for creating instances
 #When creating the constructor class, always name the instance 'self'.
 #full_name is a method of the Employee class that can be run on any instance of the Employee() class
-#All methods require self as the argument
+#All methods require self as the argument in the constructor class
 class Employee:
     def __init__(self, first, last, astrology):
         self.first = first

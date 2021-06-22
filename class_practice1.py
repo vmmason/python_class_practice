@@ -1,4 +1,4 @@
-#Object Oriented Programming Practice from Corey Schafer's YT Videos
+#OOP Tutorial 1: Classes and Instances from Corey Schafer
 
 #A class is a blueprint for creating instances
 #When creating the constructor class, always name the instance 'self'.

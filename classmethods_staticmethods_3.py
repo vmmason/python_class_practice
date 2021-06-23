@@ -36,6 +36,8 @@ class Employee:
         if day.weekday() == 5 or day.weekday() == 6:
             return False
         return True
+    #staticmethods don't operate on the instance OR the class and more like regular functions
+    #You use staticmethods when you have a logically connected method that doesn't need a class or instance as an argument
     
 emp_1 = Employee("Veron", "Mason", "Sagittarius", 500)
 emp_2 = Employee("Tori", "Edwardson", "Aquarius", 800)

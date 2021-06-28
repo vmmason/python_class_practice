@@ -35,6 +35,9 @@ class Dice:
     def __radd__(self, other):
         return int(self) + other
     
+    def __repr__(self):
+        return str(self.value)
+    
         
 class D6(Dice):
     def __init__(self, value=0):
